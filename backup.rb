@@ -1,4 +1,4 @@
-104.86.70.7#! /usr/bin/env nix-shell
+#! /usr/bin/env nix-shell
 #! nix-shell -i ruby -p ruby_2_7 rubyPackages_2_7.thor rubyPackages_2_7.activesupport
 
 require 'active_support/core_ext/string/filters'
